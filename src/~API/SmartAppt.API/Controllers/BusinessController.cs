@@ -15,6 +15,8 @@ namespace SmartAppt.API.Controllers
             int? Id = await businessRepository.CreateAsync(business);
 
             return Id.HasValue;
+
+            // adding test comment
         }
     }
 }
